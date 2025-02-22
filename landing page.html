@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsychTalks - Mental Health Resources</title>
+    <!-- Material Components Web -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/14.0.0/material-components-web.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/14.0.0/material-components-web.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #00894E;
+            --secondary-color: #0D3342;
+            --background-color: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .card {
+            background: var(--background-color);
+            max-width: 400px; /* Reduced card size */
+            padding: 1.5rem; /* Reduced padding */
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: 1rem; /* Added margin for spacing */
+        }
+
+        .logo {
+            width: 30%; /* Logo size */
+            height: auto;
+            margin-bottom: 0.8rem; /* Reduced margin */
+        }
+
+        .description {
+            color: var(--secondary-color);
+            margin-bottom: 1rem; /* Reduced margin */
+        }
+
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem; /* Reduced gap between buttons */
+        }
+
+        .social-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px; /* Reduced padding */
+            border-radius: 8px;
+            color: white;
+            font-size: 0.9rem; /* Smaller font size */
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.3s;
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/PsychTalks/assets/main/Asset%201gg.png" alt="PsychTalks Logo" class="logo">
+        <h2 style="color: var(--primary-color);">Welcome to PsychTalks</h2>
+        <p class="description">Providing Relaxation process and practical helping guide for your Mind.</p>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/psychtalksbd?_rdr" class="social-button" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/psychtalksbd/#" class="social-button" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@psychtalksbd" class="social-button" target="_blank">YouTube</a>
+            <a href="https://psychtalks.substack.com/" class="social-button" target="_blank">Website</a>
+        </div>
+    </div>
+</body>
+</html>
